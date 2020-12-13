@@ -39,13 +39,13 @@ CFLAGS_CC_Debug := \
 	-std=gnu++1y
 
 INCS_Debug := \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/include/node \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/src \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/openssl/config \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/openssl/openssl/include \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/uv/include \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/zlib \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/v8/include \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/include/node \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/src \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/openssl/config \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/openssl/openssl/include \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/uv/include \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/zlib \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/v8/include \
 	-I$(srcdir)/node_modules/nan
 
 DEFS_Release := \
@@ -82,13 +82,13 @@ CFLAGS_CC_Release := \
 	-std=gnu++1y
 
 INCS_Release := \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/include/node \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/src \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/openssl/config \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/openssl/openssl/include \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/uv/include \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/zlib \
-	-I/home/k3sc0re/.electron-gyp/9.3.5/deps/v8/include \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/include/node \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/src \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/openssl/config \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/openssl/openssl/include \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/uv/include \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/zlib \
+	-I/home/k3sc0re/.electron-gyp/9.4.0/deps/v8/include \
 	-I$(srcdir)/node_modules/nan
 
 OBJS := \

@@ -1,5 +1,5 @@
 Skipping node-gyp installation as part of npm install.
-added 98 packages from 73 contributors and audited 98 packages in 1.692s
+added 98 packages from 73 contributors and audited 98 packages in 1.175s
 
 3 packages are looking for funding
   run `npm fund` for details
@@ -13,12 +13,12 @@ AR_x86_64-unknown-linux-gnu = None
 AR_x86_64_unknown_linux_gnu = None
 HOST_AR = None
 AR = None
-running: "ar" "cq" "/home/k3sc0re/repos/quickstart/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out/libneon.a" "/home/k3sc0re/repos/quickstart/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out/native/build/Release/obj.target/neon/src/neon.o"
+running: "ar" "cq" "/home/k3sc0re/repos/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out/libneon.a" "/home/k3sc0re/repos/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out/native/build/Release/obj.target/neon/src/neon.o"
 exit code: 0
-running: "ar" "s" "/home/k3sc0re/repos/quickstart/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out/libneon.a"
+running: "ar" "s" "/home/k3sc0re/repos/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out/libneon.a"
 exit code: 0
 cargo:rustc-link-lib=static=neon
-cargo:rustc-link-search=native=/home/k3sc0re/repos/quickstart/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out
+cargo:rustc-link-search=native=/home/k3sc0re/repos/quickstart/native/target/release/build/neon-sys-30526206f3c937bd/out
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 CXXSTDLIB_x86_64_unknown_linux_gnu = None
 HOST_CXXSTDLIB = None
