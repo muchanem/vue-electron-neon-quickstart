@@ -1,24 +1,3 @@
-# quickstart
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Vue-Webpack-Electron-Neon-Quickstart
+* Let's put aside the horror of that name, and get into what this actually does
+* This is a boilerplate repo that allows vue that has been installed via vue-cli and electron added on with the electron-builder plugin to work with neon-bindings. The solution for getting the native module to load is pretty hacky, so I'll need to find a way to load the module properly on a build for distribution. 
